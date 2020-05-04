@@ -1,45 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Nombre de la App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/themes/app.min.css">
-        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
-        <link rel="stylesheet" href="css/jquery.mobile.structure.min.css">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.mobile.min.js"></script>
-        <script src="cordova.js"></script>
-    </head>
-    <body>
-        <div data-role="page" id="primera">
+  <head>
+    <meta charset="utf-8" />
+    <title>Funny cycle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/themes/app.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure.min.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile.min.js"></script>
+    <script src="cordova.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="Intro">
+      <div data-role="header">
+        <h1>Título de la página</h1>
+      </div>
+      <!-- /header -->
 
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
+      <div role="main" class="ui-content">
+        <a href="#Home" class="ui-btn ui-corner-all">Msm</a>
+      </div>
+      <!-- /content -->
 
-            <div role="main" class="ui-content">
-                <p>Contenido de la página</p>
-            </div><!-- /content -->
+      <div data-role="footer" data-position="fixed">
+        <h4>Footer de la página.</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
 
-            <div data-role="footer" data-position="fixed">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
-        </div><!-- /page -->
-        
-        <div data-role="page" id="segunda">
+    <div data-role="page" id="Home">
+      <div data-role="header">
+        <h1>Título de la página</h1>
+      </div>
+      <!-- /header -->
 
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
+      <div role="main" class="ui-content">
+        <p>Contenido de la página.</p>
+        <a href="#" class="ui-btn ui-corner-all">Comenzar</a>
+        <a href="#" class="ui-btn ui-corner-all">Perfil</a>
+      </div>
+      <!-- /content -->
 
-            <div role="main" class="ui-content">
-                <p>Contenido de la página.</p>
-            </div><!-- /content -->
+      <div data-role="footer">
+        <h4>Footer de la página.</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
 
-            <div data-role="footer">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
-        </div><!-- /page -->
-    </body>
+    <div data-role="page" id="Clasificación"></div>
+  </body>
 </html>
